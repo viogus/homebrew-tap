@@ -1,17 +1,17 @@
-# homebrew-casks
+# homebrew-tap
 
-Personal [Homebrew](https://brew.sh) cask tap — custom casks for apps not in the official [homebrew/cask](https://github.com/Homebrew/homebrew-cask) repo.
+Personal [Homebrew](https://brew.sh) tap — custom formulae and casks for apps not in the official Homebrew repositories.
 
 ## Install
 
 ```bash
-brew tap viogus/homebrew-casks
+brew tap viogus/homebrew-tap
 ```
 
-### Available Casks
+### Available packages
 
-- **hermes-agent** — [Hermes Agent Desktop](https://hermes-agent.nousresearch.com), the self-improving AI agent by [Nous Research](https://nousresearch.com)
+- **hermes-agent** (cask) — [Hermes Agent Desktop](https://hermes-agent.nousresearch.com), the self-improving AI agent by [Nous Research](https://nousresearch.com)
 
 ## Auto-updates
 
-A [GitHub Actions workflow](./.github/workflows/update.yml) runs daily to check for new releases and update casks automatically.
+A [GitHub Actions workflow](./.github/workflows/update.yml) runs daily to check for new releases and update packages automatically.
